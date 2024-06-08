@@ -1,6 +1,6 @@
 import React, { Suspense } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import AppLayout from "../components/layout";
+import AppLayout from "@components/layout";
 import { AllMeetupsPage, NewMeetupsPage, FavouritesPage} from "../pages";
 
 const AppRoutes = () => {
