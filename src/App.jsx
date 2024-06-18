@@ -1,7 +1,7 @@
 import React from 'react'
 import AppRoutes from './routes'
 import { Toaster } from "react-hot-toast";
-import { FavouritesContextProvider } from "./store/favourites-context";
+import { FavouritesContextProvider } from "@store";
 const App = () => {
   return (
     <FavouritesContextProvider>
